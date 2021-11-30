@@ -2,7 +2,7 @@
 
 This is an introductory project to HTML basis.
 The project consist of making a landing page for a lasagna recipe,
-with the picture of the chief.
+with the picture of the main dish.
 
 ## Steps followed:
 * 1- I created index.html with the main page and I added a main navigation with links to other pages.
@@ -11,6 +11,6 @@ with the picture of the chief.
 * 4- The project was to introduce HTML basis only, but I wanted to practice some CSS learned in previous courses, so I added style.css to all four pages.
 
 ## Considerations
-* Font Awesome is used to add an icon of cutlery to make the logo. For this purpose, it is only necessary to add the link reference in the <head> part of index.html. Link reference from: https://cdnjs.com/libraries/font-awesome
+* Font Awesome is used to add an icon of cutlery to make the logo. For this purpose, it is only necessary to add the link reference in the <em>head</em> part of index.html. Link reference from: https://cdnjs.com/libraries/font-awesome
 * CSS flexbox is used in the main page to make a horizontal display of all the recipes.
 * CSS grid is employed in every recipe page to align both ingredients part and directions.
