@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+:root {
+    --green: rgb(130, 185, 159);
+    --second : rgb(105, 67, 41);
+    --white: rgb(228, 228, 228);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav  {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: var(--green);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo i {
+    color: var(--second);
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+.logo h1 {
+    color: var(--white);
+}
+.menu {
+    padding-right: 4rem;
+}
+.menu a{
+    color: var(--white);
+    margin-left: 5rem;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: var(--second);
+}
+.header {
+    width: 100%;
+    position: relative;
+    height: 40rem;
+    background-image: url(images/recipe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header h2 {
+    text-align: center;
+    color: white;
+    background-color: var(--second);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1.5rem 3rem;
+}
+
+.recipes {
+    margin: 3rem 0;
+}
+.recipes h2 {
+    text-align: center;
+    color: var(--green);
+    font-weight: bold;
+}
+.recipes-list {
+    margin: 3rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.recipe-box {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px var(--second);
+    border-radius: 2rem;
+}
+.recipe-box img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-top-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+}
+.recipe-box h3 {
+    text-align: center;
+    color: var(--green);
+    margin: 2rem 0;
+    font-weight: bold;
+}
+.recipe-box .content p {
+    color: var(--second);
+    text-align: center;
+}
+.learn-more {
+    font-size: 1.5rem;
+    text-align: end;
+    margin: 2rem;
+}
+.learn-more a {
+    
+    color: var(--green);
+}
+.learn-more a:hover {
+    color: var(--second);
+}
+
+
+/* Lasagna Recipe */
+.image {
+    position: relative;
+    /* background-image: url(images/lasagna.jpg);
+    width: 100%;
+    height: 50rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.image img {
+    width: 100%;
+    height: 70rem;
+    object-fit: cover;
+}
+.image h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--white);
+    background-color: var(--second);
+    padding: 1.5rem 3rem;
+}
+
+.recipe-header {
+    padding: 3rem;
+    text-align: center;
+}
+.recipe-header h1 {
+    color: var(--green);
+}
+.recipe-header p {
+    font-weight: bold;
+    padding: 3rem 0;
+}
+.ingredients {
+    margin: 0 3rem 3rem 3rem;
+    padding: 3rem;
+    background-color: var(--green);
+    width: 40rem;
+    border-radius: 5rem;
+}
+.ingredients h3 {
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.ingredients-list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.ingredient {
+    margin: 1rem 0;
+    color: var(--second);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.recipe {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items:flex-start;
+    gap: 3rem;
+
+}
+.recipe .steps  {
+    margin: 2rem;
+}
+.recipe .steps h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--green);
+}
+.steps ol li{
+    margin: 3rem 0;
+}
